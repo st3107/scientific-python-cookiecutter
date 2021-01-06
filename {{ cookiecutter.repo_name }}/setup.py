@@ -35,8 +35,7 @@ with open(path.join(here, 'requirements.txt')) as requirements_file:
 
 setup(
     name='{{ cookiecutter.package_dist_name }}',
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version='0.1.0',
     description="{{ cookiecutter.project_short_description }}",
     long_description=readme,
     author="{{ cookiecutter.full_name }}",
